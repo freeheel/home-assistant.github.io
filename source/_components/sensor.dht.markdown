@@ -36,5 +36,5 @@ Configuration variables:
 - **name** (*Optional*): The name of the sensor
 - **monitored_conditions** array  (*Required*): Conditions to monitor. Available conditions are only *temperature* and *humidity*.
 
-The name of the pin to which the sensor is connected has different names on different platforms. 'P8_11' for Beaglebone, '23' for Raspberry Pi.
+The name of the pin to which the sensor is connected has different names on different platforms. 'P8_11' for Beaglebone, '23' for Raspberry Pi (it´s the GPIO, not the pin - PIN 7 == GPIO4).
 
